@@ -12,14 +12,30 @@ De maneira empírica, pela natureza dos atributos do dataset original, creio que
 
 Atributos do Dataset O dataset 'Mental Health Lifestyle' possui 3000 instâncias, de maneira balanceada em relação aos atributos categóricos (Países, Gêneros, Tipo de Dieta etc). No total, possui 12 atributos:
 
-Country: País do respondente (Australia, Brazil, Canada, Germany, India, Japan, USA) Age: Idade do respondente (Anos) 
-Gender: Identidade de gênero do respondente (Female, Male, Other) 
-Exercise Level: Nível de exercício físico do respondente (High, Low, Moderate) 
-Diet Type: Classificação da dieta do respondente (Balanced, Junk Food, Keto, Vegan, Vegetarian) 
-Sleep Hours: Horas de sono diária do respondente (Horas) 
-Stress Level: Nível de stress do respondente (High, Low, Moderate) 
-Mental Health Condition: Condição de saúde mental do respondente (Anxiety, Bipolar, Depression, None, PTSD) 
-Work Hours per Week: Horas de trabalho diária do respondente (Horas) 
-Screen Time per Day: Tempo de tela diária do respondente (Horas) 
-Social Interaction Score: Pontuação de interação Social do respondente (Escala 1-10) 
-Happiness Score: Pontuação de Felicidade do respondente (Escala 1-10)
+---
+
+>**1. Country:** País do respondente (Australia, Brazil, Canada, Germany, India, Japan, USA) Age: Idade do respondente (Anos);
+
+>**2. Gender:** Identidade de gênero do respondente (Female, Male, Other) 
+
+>**3. Exercise Level:** Nível de exercício físico do respondente (High, Low, Moderate) 
+
+>**4. Diet Type:** Classificação da dieta do respondente (Balanced, Junk Food, Keto, Vegan, Vegetarian)
+
+>**5. Sleep Hours:** Horas de sono diária do respondente (Horas)
+
+>**6. Stress Level:** Nível de stress do respondente (High, Low, Moderate)
+
+>**7. Mental Health Condition:** Condição de saúde mental do respondente (Anxiety, Bipolar, Depression, None, PTSD)
+
+>**8. Work Hours per Week:** Horas de trabalho diária do respondente (Horas)
+
+>**9. Screen Time per Day:** Tempo de tela diária do respondente (Horas)
+
+>**10. Social Interaction Score:** Pontuação de interação Social do respondente (Escala 1-10)
+
+>**11. Happiness Score:** Pontuação de Felicidade do respondente (Escala 1-10)
+
+---
+
+Temos um problema foi identificado como do tipo de **classificação supervisionada**. De acordo com os atributos numéricos (horas de sono, horas trabalhadas, idade, score de felididade etc), o objetivo é a previsão dos '**níveis de stress**' e  bem-estar' dos indivíduos.
