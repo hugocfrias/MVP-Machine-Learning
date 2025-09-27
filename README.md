@@ -38,4 +38,4 @@ Atributos do Dataset O dataset 'Mental Health Lifestyle' possui 3000 instâncias
 
 ---
 
-Temos um problema foi identificado como do tipo de **classificação supervisionada**. De acordo com os atributos numéricos (horas de sono, horas trabalhadas, idade, score de felididade etc), o objetivo é a previsão dos '**níveis de stress**' e  bem-estar' dos indivíduos.
+Temos um problema que foi identificado como do tipo de **classificação supervisionada**. De acordo com os demais atributos do Dataset (horas de sono, horas trabalhadas, idade, score de felididade etc), o objetivo é a previsão dos '**níveis de stress**' e  bem-estar' dos indivíduos.
